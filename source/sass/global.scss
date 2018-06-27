@@ -1,0 +1,70 @@
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+
+  font-family: @default-font;
+
+  background-color: #f2f2f2;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: @default-font;
+}
+
+/* Стилизация плэйсхолдера */
+::-webkit-input-placeholder { /* WebKit browsers */
+  color: #000000;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: #000000;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: #000000;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: #000000;
+}
+
+/* Скрыть заголовки доступно */
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* Необходимый перенос согласно макету */
+
+@media (max-width: @tablet-width) {
+  .mobile-hidden {
+    display: none;
+  }
+}
+
+@media (max-width: @desktop-width) {
+  .tablet-hidden {
+    display: none;
+  }
+}
