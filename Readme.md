@@ -1,4 +1,4 @@
-# Тестовая страница [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
+# Тестовая страница
 
 * [Денис Лазарев](https://up.htmlacademy.ru/adaptive/13/user/401603).
 
