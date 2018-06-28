@@ -1,7 +1,6 @@
-# Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
+# Тестовая страница [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
-* Студент: [Денис Лазарев](https://up.htmlacademy.ru/adaptive/13/user/401603).
-* Наставник: [Лиза Позднякова](https://htmlacademy.ru/profile/lizzy).
+* [Денис Лазарев](https://up.htmlacademy.ru/adaptive/13/user/401603).
 
 ---
 
@@ -46,15 +45,4 @@ git clone SSH-адрес_вашего_форка
 
 Команда клонирует репозиторий на ваш компьютер и подготовит всё необходимое для старта работы.
 
-#### 4. Начинайте обучение!
-
----
-
-<a href="https://htmlacademy.ru/intensive/adaptive"><img align="left" width="50" height="50" alt="HTML Academy" src="https://up.htmlacademy.ru/static/img/intensive/adaptive/logo-for-github-2.png"></a>
-
-Репозиторий создан для обучения на интенсивном онлайн‑курсе «[Профессиональный HTML и CSS](https://htmlacademy.ru/intensive/adaptive)», уровень 2 от [HTML Academy](https://htmlacademy.ru).
-
-[travis-image]: https://travis-ci.org/htmlacademy-adaptive/401603-sedona.svg?branch=master
-[travis-url]: https://travis-ci.org/htmlacademy-adaptive/401603-sedona
-[dependency-image]: https://david-dm.org/htmlacademy-adaptive/401603-sedona/dev-status.svg?style=flat-square
-[dependency-url]: https://david-dm.org/htmlacademy-adaptive/401603-sedona?type=dev
+#### 4. Начинайте работу!
