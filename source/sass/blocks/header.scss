@@ -1,7 +1,77 @@
 .header {
   height: 648px;
+  padding-top: 22px;
   background-color: #6414a3;
   background-image: url("../img/bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.navbar-nav {
+  margin-left: 50px;
+}
+
+.nav-item {
+  padding-right: 8px;
+}
+
+.nav-link {
+  width: 118px;
+  height: 38px;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  border: 1px solid rgba(151, 151, 151, 0.2);
+  border-radius: 21px;
+  text-align: center;
+}
+
+.dropdown-link {
+  width: 151.5px;
+}
+
+.link-live {
+  position: relative;
+  width: 86px;
+  text-transform: uppercase;
+  color: tomato;
+  border-color: tomato;
+}
+
+.link-live:before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  left: 15px;
+  top: 15px;
+  background-color: #fb503a;
+  border-radius: 50%;
+}
+
+.link-search {
+  width: 50px;
+  border: none;
+  border-left: 3px solid rgba(151, 151, 151, 0.2);
+  border-radius: 0;
+}
+
+.link-user {
+  font-size: 24px;
+  position: relative;
+  border: none;
+  margin-top: -10px;
+  width: 53px;
+  padding: 4px;
+}
+
+.link-user:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 53px;
+    height: 2px;
+    color: tomato;
 }
