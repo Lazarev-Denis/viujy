@@ -1,0 +1,58 @@
+.main__title {
+  padding: 121px 0;
+  text-align: center;
+  font-size: 36px;
+  color: #2eb7e6;
+  font-family: "Monserrat", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.main__reason {
+  height: 1048px;
+  background-image: url("../../img/bg1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main__reason-title {
+  width: 1140px;
+  color: #000000;
+  font-size: 48px;
+  font-weight: 700;
+  padding-top: 122px;
+  padding-left: 170px;
+}
+
+.main__stats {
+  width: 1140px;
+  margin: 0 auto;
+  padding-top: 71px;
+  padding-bottom: 164px;
+  text-align: center;
+}
+
+.main__stats-title {
+  font-size: 72px;
+  font-weight: 700;
+  color: #0027df;
+  line-height: 72px;
+  font-family: "Monserrat", sans-serif;
+}
+
+.main__stats-text {
+  font-size: 24px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 24px;
+  font-family: "Monserrat", sans-serif;
+}
+
+.main__stats-text-small {
+  font-size: 13px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 30px;
+  font-family: "Monserrat", sans-serif;
+  padding-bottom: 114px;
+}

@@ -7,6 +7,10 @@
   background-position: center;
 }
 
+.header__nav {
+  width: 1320px;
+}
+
 .navbar-nav {
   margin-left: 50px;
 }
@@ -153,9 +157,19 @@
   border-color: #2eb7e6;
 }
 
+.header__btn:hover {
+  background-color: #ffffff;
+  color: #2eb7e6;
+}
+
 .header__btn-active {
   background: linear-gradient(to right, #5ee0fe, #0293d1);
   border: none;
+}
+
+.header__btn-active:hover {
+  background: #ffffff;
+  color: #2eb7e6;
 }
 
 .header__social {
@@ -164,4 +178,8 @@
 
 .social__link {
   padding-left: 10px;
+}
+
+.social__link:hover {
+  text-decoration: none;
 }
